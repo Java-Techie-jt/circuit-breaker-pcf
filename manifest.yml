@@ -1,0 +1,8 @@
+applications:
+- name: microservice1
+path: target/circuit-breaker-pcf.jar
+domain: cfapps.io
+memory: 1G
+instances: 1
+services:
+- circuit-breaker
